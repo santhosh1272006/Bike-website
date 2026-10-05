@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> project 1 </title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="index">
+
+        <div class="box1" id="home">
+
+             <video autoplay muted loop src="./video 1.mp4" class="first-video">
+            </video>
+
+        <div class="nav">
+
+    <div class="logo-bike">
+        <i class="fa-solid fa-motorcycle"></i>
+        <span>BIKE</span>
+    </div>
+
+    <button class="menu-btn" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <div class="menu" id="mobileMenu">
+
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#bikes">BIKES</a>
+        <a href="#bikestypes">BIKE TYPES</a>
+        <a href="#services">SERVICES</a>
+        <a href="#blog">BLOG</a>
+        <a href="#gallery">GALLERY</a>
+        <a href="#testimonial">TESTIMONIAL</a>
+
+    </div>
+
+    <button class="contact">
+        <a href="tel:+917255245678">
+            <i class="fa-solid fa-phone"></i>
+            CONTACT
+        </a>
+    </button>
+
+</div>  
+
+
+            <!-- <p>
+                <i class="fa-solid fa-motorcycle bikeicon"> </i>
+            </p>
+
+            <div class="nav">
+                <a href="#home">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#bikes">BIKES</a>
+                <a href="#bikestypes"> BIKES TYPES</a>
+                <a href="#services">SERVICES</a>
+                <a href="#blog">BLOG</a>
+                <a href="#gallery">GALLERY</a>
+                <a href="#testimonial">TESTIMONIAL</a>
+
+                <button class="contact">
+                    <a href="tel:+917255245678"> <i class="fa-solid fa-phone"></i> CONTACT</a>
+                </button>
+            </div> -->
+
+
+
+        </div>
+        
+             <div class="center2">
+                <a href="https://www.instagram.com/_.sxnthosh_/" style="color:white;text-decoration: none;">
+                    <i class="fa-brands fa-instagram"></i> </a>
+                <a href="https://www.facebook.com/sanjay.kaichi" style="color:white;text-decoration: none;">
+                    <i class="fa-brands fa-facebook"></i> </a>
+                <a href="https://www.youtube.com/results?search_query=bikes+and+bike++explore" style="color:white;text-decoration: none;">
+                    <i class="fa-brands fa-youtube"></i> </a>
+            </div>
+
+            <div>
+                <h1 class="center3">
+                    BIKE BEYOND LIMITS, DISCOVER YOUR PERFECT BIKE
+                </h1>
+            </div>
+
+        
+         <div class="loader"></div> 
+
+            <!-- <button class="but">
+                 EXPLORE <i class="fa-solid fa-arrow-right"></i> 
+            </button> -->
+
+    <button class="but" id="biketypes" onclick="goToSection('bikestypes')">
+        <i class="fa-solid fa-motorcycle"></i>
+        EXPLORE<i class="fa-solid fa-arrow-right"></i>
+    </button>
+        
+</div> 
+
+        <div class="box2" > 
+            <div class="logo">
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsASqw9Fe-AYcMtL1WtCmWUoMB1yzKUepOmA&s"
+                        class="whole">
+                    <h1 class="logoname"> YAHAMA </h1>
+                </div>
+
+                <div>
+                    <img src="https://vectorseek.com/wp-content/uploads/2023/11/KTM-Racing-white-Logo-Vector.svg-1-1.png"
+                        class="whole">
+                    <h1  class="logoname"> KTM </h1>
+                </div>
+
+                <div>
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/020/500/085/small/bmw-brand-logo-symbol-white-design-germany-car-automobile-illustration-with-black-background-free-vector.jpg"
+                        class="whole">
+                    <h1  class="logoname"> BMW </h1>
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIem9kpdSiPPT_TnYqKJxc4WAQsbbWKYkOJv1Sows0YA&s=10"
+                        class="whole">
+                    <h1  class="logoname"> ROYAL </h1>
+                </div>
+                <div>
+                    <img src="https://wallpaperaccess.com/full/349441.jpg" class="whole">
+                    <h1  class="logoname"> HONDA </h1>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="box3" id="about">
+            <div class="overall">
+                <h1>
+                    ABOUT
+                </h1>
+            </div>
+            <div class="bik">
+                <h1 class="bname">
+                    BIKES
+                </h1>
+                <div class="con">
+                    <p>
+                        AT MT, R15, WE BELIEVE IS MORE THAN JUST A RIDE-IT'S
+                    </p>
+                    <p>
+                        FREEDOM, ADVENTURE, AND PASSION ON TWO WHEELS AT
+                    </p>
+                    <p>
+                        MT, R15, WE BELIVE BIKING IS MORE THAN JUST A RIDE-IT'S
+                    </p>
+                    <p>
+                        FREEDOM, ADVENTURE, AND PASSION ON TWO WHEELS
+                    </p>
+                     </div>
+
+                <div class="more-info" id="moreInfo">
+                    <p>
+                        Every R15 is engineered for precision handling and razor-sharp response,
+                        built to reward riders who demand more from the machine beneath them.
+                    </p>
+                <ul>
+                    <li>155cc liquid-cooled engine</li>
+                    <li>Variable Valve Actuation (VVA)</li>
+                    <li>Traction control &amp; quick shifter</li>
+                    <li>Lightweight deltabox frame</li>
+                </ul>
+                </div>
+
+                 <div class="view" id="viewBtn" onclick="toggleMore()">
+                <span id="viewLabel">VIEW MORE</span>
+                <span class="arrow" id="arrowIcon">&#9660;</span>
+
+                 </div>
+            </div>
+              <img src="./assest.png"
+                class="bikimg" />
+            </div>           
+        </div>
+
+
+    <div class="box4" id="bikes">
+            <h1 class="over">
+                BIKES
+            </h1>
+            <div class="mt">
+                <img src="./assest mt.png"
+                    class="mtimg"/>
+                <div class="iconpose"> <i class="fa-solid fa-motorcycle"></i>
+                </div>
+                <h1 class="adjut1">
+                    MT
+                </h1>
+                <button class="view1" onclick="goToSection('gallery')">
+                    VIEW MORE
+                </button>
+            </div>
+
+            <div class="ktm">
+                <img src="./assest ktm.png" class="mtimg" />
+                <div class="iconpose"> <i class="fa-solid fa-motorcycle"></i>
+                </div>
+                <h1 class="adjut2">
+                    KTM
+                </h1>
+                <button class="view1" onclick="goToSection('gallery')">
+                    VIEW MORE
+                </button>
+            </div>
+
+            <div class="bmw">
+                <img src="./assest bmw.png"
+                    class="mtimg" />
+                    <div class="iconpose"> <i class="fa-solid fa-motorcycle"></i>
+                </div>
+                <h1 class="adjut2">
+                    BMW
+                </h1>
+                <button class="view1" onclick="goToSection('gallery')">
+                    VIEW MORE
+                </button>
+            </div>
+
+            <div class="royal">
+                <img src="./assest royal.png"
+                    class="mtimg" />
+                    <div class="iconpose"> <i class="fa-solid fa-motorcycle"></i>
+                </div>
+                <h1 class="adjut3">
+                    ROYAL 
+                </h1>
+                <button class="view1" onclick="goToSection('gallery')">
+                    VIEW MORE
+                </button>
+            </div>
+
+            <div class="honda">
+                <img src="./assest honda.png" class="mtimg" />
+                <div class="iconpose"> <i class="fa-solid fa-motorcycle"></i>
+                </div>
+                <h1 class="adjut3">
+                    HONDA
+                </h1>
+                
+                <button class="view1" onclick="goToSection('gallery')">
+                    VIEW MORE
+                </button> 
+                
+            </div>
+
+            <div class="iconpose1"> <i class="fa-solid fa-motorcycle"></i>
+        </div>
+    </div>
+
+<div class="box5" id="bikestypes">
+
+      <div class="h1ser">
+            <h1>
+                 BIKES TYPES
+            </h1>
+        </div>
+
+    <div class="slider">
+        <!-- ================= PAGE 1 ================= -->
+
+        <section class="page page1 active">
+
+            <!-- <video autoplay muted loop playsinline
+                src="bike1.mp4"
+                class="bgvideo"> -->
+        
+            <div class="overlay"></div>
+
+            <div class="content">
+
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+
+                <h1 class="h1con">
+                    "PASSION ON TWO WHEELS"
+                </h1>
+
+                <p class="pcon1">
+                    WE ARE COMMITTED TO DELIVERING HIGH-PERFORMANCE
+                    BIKES DESIGNED FOR EVERY KIND OF RIDER.
+                    WHETHER YOU'RE CHASING SPEED, COMMUTING TO WORK,
+                    OR EXPLORING THE OPEN ROAD, WE'VE GOT THE
+                    PERFECT BIKE FOR YOU.
+                </p>
+
+                <button class="model" onclick="goToSection('blog')">
+                    EXPLORE MODEL
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+                    <img src="./assest red.png" class="passionimg"/>
+
+            </div>
+
+            <div class="page-number">01</div>
+
+        </section>
+
+
+        <!-- ================= PAGE 2 ================= -->
+
+        <section class="page page2">
+
+            <video autoplay muted loop playsinline
+                src="bike2.mp4"
+                class="bgvideo">
+            </video>
+
+            <div class="overlay"></div>
+
+            <div class="content">
+
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+
+                <h1 class="h1con">
+                    "BUILT FOR ADVENTURE"
+                </h1>
+
+                <p class="pcon1">
+                    EXPERIENCE THE FREEDOM OF THE OPEN ROAD.
+                    OUR BIKES ARE BUILT WITH POWER, PRECISION
+                    AND COMFORT TO HANDLE EVERY JOURNEY.
+                    RIDE FURTHER AND DISCOVER SOMETHING NEW.
+                </p>
+
+                <button class="model">
+                    EXPLORE MODEL
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+                    <img src="./assest blue.png" class="passionimg"/>
+
+            </div>
+
+            <div class="page-number">02</div>
+
+        </section>
+
+
+        <!-- ================= PAGE 3 ================= -->
+
+        <section class="page page3">
+
+            <video autoplay muted loop playsinline
+                src="bike3.mp4"
+                class="bgvideo">
+            </video>
+
+            <div class="overlay"></div>
+
+            <div class="content">
+
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+
+                <h1 class="h1con">
+                    "POWER MEETS STYLE"
+                </h1>
+
+                <p class="pcon1">
+                    DESIGNED TO TURN HEADS AND BUILT TO PERFORM.
+                    EVERY DETAIL IS ENGINEERED TO GIVE YOU
+                    AN UNFORGETTABLE RIDING EXPERIENCE WITH
+                    POWERFUL PERFORMANCE AND PREMIUM STYLE.
+                </p>
+
+                <button class="model">
+                    EXPLORE MODEL
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+                    <img src="./assest black.png" class="passionimg"/>
+
+            </div>
+
+            <div class="page-number">03</div>
+
+        </section>
+
+
+        <!-- ================= PAGE 4 ================= -->
+
+        <section class="page page4">
+
+            <video autoplay muted loop playsinline
+                src="bike4.mp4"
+                class="bgvideo">
+            </video>
+
+            <div class="overlay"></div>
+
+            <div class="content">
+
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+
+                <h1 class="h1con">
+                    "RULE THE ROAD"
+                </h1>
+
+                <p class="pcon1">
+                    FROM CITY STREETS TO LONG HIGHWAYS,
+                    OUR BIKES ARE READY FOR THE JOURNEY.
+                    RIDE WITH CONFIDENCE, EXPERIENCE THE POWER
+                    AND MAKE EVERY ROAD YOUR OWN.
+                </p>
+
+                <button class="model">
+                    EXPLORE MODEL
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+                    <img src="./assest red.png" class="passionimg"/>
+
+            </div>
+
+            <div class="page-number">04</div>
+
+        </section>
+    </div>
+</div>
+
+    <div class="box6" id="services">
+
+         <div class="spotlight" id="spotlight"></div>
+ 
+        <h1 class="svc-title" id="svcTitle">Service</h1>
+ 
+        <div class="svc-filters" id="svcFilters"></div>
+ 
+         <div class="svc-info" id="svcInfo"></div>
+ 
+        <div class="svc-grid" id="svcGrid">
+        </div>
+
+    </div>
+
+            <div class="box7" id="blog">
+                <div class="h1ser">
+                    <h1>
+                        BLOG
+                    </h1>
+                </div>
+                <div class="blogimg1">
+                    <img src="./assest blog img.png"
+                        class="img1" />
+                </div>
+                <div class="blogimg2">
+                    <h1 class="explore">
+                        EXPOLRE MORE WITH FREEDOM
+                    </h1>
+
+                    <p class="exper">
+                        EXPERIENCE THE JOY OF EXPLORING NEW DESTINATION ON A BIKE. FEEL THE
+                        WIND, EMBRACE THE OPEN ROAD, AND DISCOVER HIDDEN PLACES AT YOUR
+                        OWN PACE
+                    </p>
+                </div>
+            </div>
+
+            <div class="box9">
+                <div class="blogimg5">
+                    <img src="./assest blog img2.png"
+                        class="img1" />
+                </div>
+
+                <div class="blogimg6">
+                    <h1 class="explore">
+                        CAPTURES BEAUTIFUL EXPERIENCE
+                    </h1>
+                    <p class="exper">
+                        MUNNAR IS A TOWN IN THE WESTERN GHATS MOUNTAIN RANGE IN INDIA'S 
+                        KERALA STATE. A HILL STATION AND FORMER RESORT FOR THE BRITISH RAJ 
+                       ELITE,ITS SURRONDED BY FOLLING HILLS DOTTED WITH TEA PLANTAINS.
+                        <!-- ESTABLISHED IN LATE 19th CENTURY IN THE LATE 19th CENTURY -->
+                    </p>
+                </div>
+            </div>
+
+            <div class="box10">
+
+               <div class="clipimg">
+
+                    <h1 class="r">B</h1>
+                    <h1 class="i">I</h1>
+                    <h1 class="d">K</h1>
+                    <h1 class="e">E</h1>
+
+            </div>
+
+                <div class="cliparrow">
+                </div>
+
+            <div class="tvs2003">
+                <h1>
+                    2003
+                </h1>
+            </div>
+
+             <div class="tvs2004">
+                <h1>
+                    2004
+                </h1>
+            </div>
+                <div class="wid">
+                    <div class="circle1"> 
+                    </div>
+
+                    <div class="circle2"> 
+                    </div>
+                </div>
+
+                <div class="clipbike">
+                    <img src="https://www.motorbeam.com/wp-content/uploads/TVS-XL-100-Heavy-Duty-Review-22.jpg" class="tvsimg"/>
+                </div>
+
+                <div class="tvs1">
+                    <p>
+                        THE TVS XL 100 HEAVY DUTY IS A
+                        MOPED BIKE AVAILABLE AT A PRICE RANGE
+                        OF A RS.42803-RS.59966 IN INDIA. IT
+                        COMES IN 5 VARIANTS AND 12 COLOURS.
+                    </p>
+                </div>
+
+                <div class="tvs2">
+                    <p>
+                        THE TVS XL 100 HEAVY DUTY IS A
+                        MOPED BIKE AVAILABLE AT A PRICE RANGE
+                        OF A RS.42803-RS.59966 IN INDIA. IT
+                        COMES IN 5 VARIANTS AND 12 COLOURS.
+                    </p>
+                </div>
+            </div>
+
+         <div class="box11" id="gallery"> 
+
+           <div class="gallery">
+                <h1>
+                     Gallery
+                </h1>
+            </div>
+
+            <div class="line1 allLine galleryimg">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGAD6l4mfC-ktSiz9gg7ROa5Lxj8A20g-Vc9Oz34aMJA&s=10" class="limeImg"/>
+            </div>
+ 
+             <div class="line2 allLine">
+                    <h3 class="bikeline">
+                        MT 15 
+                    </h3>
+                 <P class="innertext">
+                            The Yamaha MT-15 Version 2.0 is a premium, 
+                            entry-level hyper-naked streetfighter motorcycle renowned for its aggressive styling, 
+                            agile urban handling, 
+                            strong fuel efficiency
+                 </P>
+            </div>
+
+            <div class="line3 allLine galleryimg">
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_aG99ze-tKwNOCCIHRKrLus7gCUcDXEkncbmJJSOH_Q&s=10" class="limeImg"/>
+            </div>
+
+            <div class="line4 allLine">
+                <h3 class="bikeline">
+                        KTM RC 200 
+                    </h3>
+                 <P class="innertext">
+                           The KTM RC 200 is a high-performance, track-inspired supersport motorcycle designed for riders seeking aggressive styling, razor-sharp handling, and brisk acceleration
+                 </P>
+            </div>
+
+            <div class="line5 allLine galleryimg">
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvCyok--kjgQohfE0RgT7yOhdR8rRjENysXPlJGGaAeQ&s=10" class="limeImg"/>
+            </div>
+
+            <div class="line6 allLine">
+                  <h3 class="bikeline">
+                        BMW
+                    </h3>
+                 <P class="innertext">
+                           BMW offers an elite lineup of premium motorcycles in India, 
+                           ranging from highly accessible,
+                            co-engineered sub-400cc entry-level models to hyper-performance, 
+                            multi-million rupee superbikes.
+                 </P>
+            </div>
+
+            <div class="line7 allLine galleryimg">
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU6KbGzfpAHsOnD_f0MoUQv6cGXFH7D2xyyz2F69D69g&s=10" class="limeImg"/>
+            </div>
+
+            <div class="line8 allLine">
+                 <h3 class="bikeline">
+                        GT 650 
+                    </h3>
+                 <P class="innertext">
+                            The Royal Enfield Continental GT 650 is India’s most popular retro-style café racer, 
+                            powered by a refined parallel-twin engine.
+                             Assuming your entry "gt" refers to this prominent twin-cylinder model.
+                 </P>
+            </div>  
+
+        </div>
+
+
+<div class="box13" id="testimonial">
+
+    <h1 class="title"> Testimonal </h1>
+
+  <div class="stage-wrap">
+  <div class="track" id="track">
+  </div>
+
+  <div class="tst-nav">
+    <button id="prevBtn" class="tst-nav-btn">←</button>
+    <button id="nextBtn" class="tst-nav-btn">→</button>
+  </div>
+</div>
+
+<div class="dots tst-dots" id="dots"></div>
+
+</div>
+ 
+
+            <!-- <div class="box13">
+
+                <div class="test">
+                    <h1>
+                        TESTIMONAL
+                    </h1>
+                </div>
+
+                <div class="mybox1">
+
+                    <div>
+                        <img src="./assest face.jpeg"
+                            class="face" />
+                    </div>
+
+                    <h1 class="myname">
+                        SANTHOSH
+                    </h1>
+
+                    <h3 class="self">
+                        <span style="font-size: 30px;"> '' </span> Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Maxime praesentium officia eligendi, optio saepe quos ad quisquam, dolorem commodi,
+                        possimus consequuntur quis quia distinctio similique <span style="font-size:30px;"> ,, </span>
+                    </h3>
+
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="empty1">
+                    </div>
+
+                <div class="mybox2">
+
+                    <div class="colorred">
+                    </div>
+
+                </div>
+
+                <div class="mybox3">
+
+                    <div class="coloryellow">
+                    </div>
+
+                </div>
+
+                 <div class="mybox4">
+
+                    <div class="coloraqua">
+                    </div>
+
+                </div>
+
+                 <div class="mybox5">
+
+                    <div class="colorblue">
+                    </div>
+
+                </div>
+
+            <div class="angle">
+                <i class="fa-solid fa-angle-left"></i>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+
+          </div>   
+     </div> -->
+
+            <div class="box14">
+            
+            <div class="web">
+
+                <h1 class="biweb">
+                     BIKE WEBSITE
+                 </h1>
+
+                 <p class="bikecon1">
+                    "GOT A QUESTION <i class="fa-solid fa-question"></i> LET'S CONNECT!"
+                </p>
+
+                <p class="bikecon2"> 
+                    WHETHER YOU NEED BIKE SUGGESTION
+                </p>
+
+                <p class="bikecon2">     
+                    REVIEWS, OR BUYING GUIDANCE-WE'RE HERE 
+                     TO HELP
+                 </p>
+            </div>
+             
+            <div class="bar">
+
+                <h3 style="font-size:30px;">
+                    NAVBAR
+                </h3>
+
+               <p class="bar1" onclick="goToSection('home')">HOME</p>
+
+                <p class="bar1" onclick="goToSection('about')">ABOUT</p>
+
+                <p class="bar1" onclick="goToSection('bikes')">BIKES</p>
+
+                <p class="bar1" onclick="goToSection('bikestypes')">BIKES TYPES</p>
+
+                <p class="bar1" onclick="goToSection('services')">SERVICE</p>
+
+                <p class="bar1" onclick="goToSection('blog')">BLOG</p>
+
+                <p class="bar1" onclick="goToSection('gallery')">GALLERY</p>
+
+                <p class="bar1" onclick="goToSection('testimonial')">TESTIMONIAL</p>
+
+            </div>
+
+        <div class="addres">
+
+            <h3 style="font-size:30px;">
+                ADDRESS
+            </h3>
+           
+            <p class="bikecon4">
+                ADDRESS:BIKEHUB,CHENNAI,INDIA 
+            </p>
+
+        <div style="margin-top: 10px;">
+            <a href="tel:+919345486145" class="mail">
+                <i class="fa-solid fa-phone"></i>
+                 +91 93454 86145
+            </a>
+        </div>
+
+        <div style="margin-top: 10px;">
+            <a href="mailto: santhosh1272006@gmail.com" class="mail">
+                <i class="fa-solid fa-envelope"></i>
+                santhosh1272006@gmail.com
+            </a>
+        </div>
+
+            <p class="bikecon4">
+                WORKING HOURS:MON-SAT(9.00 AM-7.00 PM)
+            </p>
+
+        </div>
+
+     </div>
+
+<script src="./index.js"></script>
+
+</body>
+
+</html>
